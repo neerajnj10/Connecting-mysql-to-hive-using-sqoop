@@ -11,7 +11,7 @@ datastores.
 Download sqoop and cd into bin/
 
 ```
-./sqoop import --connect jdbc:mysql://localhost/cascalog  --username dan  --table unique_user_counts -m 1 
+./sqoop import --connect jdbc:mysql://localhost/cascalog  --username  --table unique_user_counts -m 1 
 --hive-import
 ```
 
