@@ -6,7 +6,7 @@ Step 1: Get Data
 
 In the first step we will grab some data from an existing database, created when doing a demo of cascalog, and load it 
 into Hive using a tool called sqoop. Sqoop is a tool designed to move large quantities of data between hdfs and structured 
-datastores(also between various other unstructured data collection to tabular or vice-vera).
+datastores.
 
 Download sqoop and cd into bin/
 
