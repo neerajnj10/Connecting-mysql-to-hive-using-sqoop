@@ -11,7 +11,8 @@ datastores(also between various other unstructured data collection to tabular or
 Download sqoop and cd into bin/
 
 ```
-./sqoop import --connect jdbc:mysql://localhost/cascalog  --username dan  --table unique_user_counts -m 1 --hive-import
+./sqoop import --connect jdbc:mysql://localhost/cascalog  --username dan  --table unique_user_counts -m 1 
+--hive-import
 ```
 
 This will import data from the cascalog MySQL database, specifically the unique_user_counts database. The –hive-import switch will place data into Hive (I installed Hive using Homebrew). The -m toggle defines the number of mappers the job will use, in this instance just 1.
