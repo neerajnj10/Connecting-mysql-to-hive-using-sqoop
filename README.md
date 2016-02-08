@@ -1,0 +1,1 @@
+# Connecting-mysql-to-hive-using-sqoop-and-R
